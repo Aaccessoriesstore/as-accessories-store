@@ -1,128 +1,151 @@
-# 💎 A S Accessories Store — متجر إكسسوارات ستانلس ستيل
+# A S Accessories Store 💎
 
-## 🌐 روابط المشروع
-
-| الخدمة | الرابط |
-|--------|--------|
-| **الموقع الحي (Netlify)** | https://as-accessories-store.netlify.app |
-| **لوحة التحكم** | https://as-accessories-store.netlify.app/admin |
-| **GitHub Repository** | https://github.com/Aaccessoriesstore/as-accessories-store |
-| **Supabase Dashboard** | https://supabase.com/dashboard/project/wuvoudelairlhcehrdec |
-| **صفحة الفيسبوك** | https://www.facebook.com/people/A-S-accessories/61578616294623/ |
+## نظرة عامة
+متجر إلكتروني احترافي لبراند **A S Accessories** - متخصص في إكسسوارات الستانلس ستيل الحريمي الفاخرة.
+شبرا الخيمة، القاهرة، مصر 🇪🇬
 
 ---
 
-## 🛍️ نبذة عن المشروع
+## 🔗 الروابط المهمة
 
-**A S Accessories** — براند إكسسوارات ستانلس ستيل حريمي فاخرة، يقع في شبرا الخيمة، القاهرة.
-الموقع متجر إلكتروني احترافي كامل باللغة العربية (RTL) مع لوحة تحكم للمالك.
+| الخدمة | الرابط |
+|--------|--------|
+| 🌐 الموقع الحي | https://as-accessories-store.netlify.app |
+| 🛡️ لوحة التحكم | https://as-accessories-store.netlify.app/admin |
+| 📦 GitHub Repo | https://github.com/Aaccessoriesstore/as-accessories-store |
+| 🗄️ Supabase Dashboard | https://supabase.com/dashboard/project/wuvoudelairlhcehrdec |
+| 📘 صفحة فيسبوك | https://www.facebook.com/people/A-S-accessories/61578616294623/ |
 
 ---
 
 ## ✅ المميزات المكتملة
 
-### 🏪 المتجر الإلكتروني
-- ✅ تصميم احترافي عربي RTL بألوان ذهبية فاخرة
-- ✅ Hero Section مع إحصائيات تفاعلية
-- ✅ عرض **30 منتج** موزعة على 6 فئات
-- ✅ تصفية المنتجات بالفئة (خواتم / قلايد / أساور / حلق / طقم / خلاخيل)
-- ✅ فلتر: الكل / جديد / عروض / الأكثر مبيعاً
-- ✅ ترتيب: الافتراضي / السعر / الأحدث
-- ✅ بحث مباشر في المنتجات
-- ✅ نافذة تفاصيل المنتج (Modal) مع صور متعددة
-- ✅ سلة تسوق كاملة (Drawer) مع إدارة الكميات
-- ✅ نموذج طلب كامل مع بيانات العميل والشحن
-- ✅ حساب تكلفة الشحن تلقائياً
-- ✅ زر واتساب للتواصل المباشر
-- ✅ قسم آراء العملاء
+### صفحة المتجر الرئيسية
+- ✅ هيرو سكشن مع صور إكسسوارات فاخرة
+- ✅ بار الفئات (خواتم / قلايد / أساور / حلق / طقم / خلاخيل)
+- ✅ تصفية وفرز المنتجات ديناميكياً
+- ✅ كارت منتج احترافي مع صورة + سعر + زر إضافة للسلة
+- ✅ مودال تفاصيل المنتج
+- ✅ سلة تسوق جانبية (Drawer)
+- ✅ نموذج طلب كامل (اسم + عنوان + هاتف)
+- ✅ زر واتساب عائم + روابط تواصل اجتماعي
+- ✅ قسم التقييمات
 - ✅ نشرة بريدية
-- ✅ Footer احترافي مع روابط التواصل الاجتماعي
-- ✅ تصميم متجاوب (Responsive) لكل الشاشات
-- ✅ أيقونة الموقع (Favicon) ذهبية
+- ✅ فوتر كامل مع معلومات المتجر
+- ✅ Toast notifications احترافية
+- ✅ تصميم responsive لجميع الشاشات
+- ✅ RTL عربي كامل
 
-### 🛡️ لوحة التحكم (Admin)
-- ✅ تسجيل الدخول بكلمة مرور
-- ✅ إضافة منتجات جديدة مع الصور والأسعار والفئة
-- ✅ تعديل وحذف المنتجات
-- ✅ إدارة الطلبات وتغيير حالتها
-- ✅ إحصائيات: المبيعات / الإيرادات / المنتجات
+### لوحة التحكم Admin
+- ✅ تسجيل دخول محمي بكلمة سر
+- ✅ Dashboard مع إحصائيات المنتجات / الطلبات / الفئات
+- ✅ إدارة المنتجات (إضافة / تعديل / حذف)
+- ✅ إدارة الطلبات (عرض / تغيير الحالة)
 - ✅ إدارة الفئات
-- ✅ إعدادات المتجر (الاسم / واتساب / الشحن)
-- ✅ عرض بيانات العملاء
+- ✅ إعدادات المتجر (اسم / واتساب / عنوان / شحن)
+- ✅ رفع صور المنتجات بالرابط
 
 ---
 
-## 🏗️ التقنيات المستخدمة
+## 🗄️ قاعدة البيانات - Supabase
+
+**Project:** as-accessories-store  
+**URL:** https://wuvoudelairlhcehrdec.supabase.co
+
+### الجداول
+| الجدول | الوصف | العدد |
+|--------|-------|-------|
+| `products` | المنتجات | 30 منتج |
+| `categories` | الفئات | 6 فئات |
+| `orders` | الطلبات | 0 (جاهز) |
+| `settings` | إعدادات المتجر | 11 إعداد |
+| `reviews` | التقييمات | - |
+| `coupons` | كوبونات خصم | - |
+| `banners` | بانرات الموقع | - |
+
+### المنتجات حسب الفئة
+- 🔵 خواتم: 6 منتجات
+- 💎 قلايد: 6 منتجات
+- ✨ أساور: 5 منتجات
+- 💫 حلق: 5 منتجات
+- 👑 طقم: 5 منتجات
+- 🌟 خلاخيل: 3 منتجات
+
+---
+
+## 🔐 بيانات الوصول
+
+### لوحة التحكم
+- **URL:** https://as-accessories-store.netlify.app/admin
+- **كلمة السر:** `Basel.1611`
+
+### Supabase API Keys
+- **Project Ref:** `wuvoudelairlhcehrdec`
+- **Anon Key:** `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...`
+
+---
+
+## 🛠️ Stack التقني
 
 | التقنية | الاستخدام |
 |---------|-----------|
-| **Hono + TypeScript** | Backend / Rendering |
-| **Supabase (PostgreSQL)** | قاعدة البيانات السحابية |
+| **Hono** | Backend framework (Cloudflare Pages/Workers) |
+| **TypeScript** | لغة البرمجة |
+| **Supabase** | قاعدة البيانات PostgreSQL |
 | **Netlify** | استضافة الموقع |
-| **Cloudflare Workers/Pages** | بيئة التطوير المحلية |
-| **Tailwind CSS (CDN)** | التصميم والستايل |
+| **TailwindCSS-like** | تصميم CSS مخصص |
 | **Font Awesome** | الأيقونات |
-| **Cairo Font** | الخط العربي |
+| **Google Fonts (Cairo)** | خط عربي |
+| **GitHub** | إدارة الكود |
 
 ---
 
-## 🗃️ قاعدة البيانات (Supabase)
+## 📁 هيكل المشروع
 
-**URL:** `https://wuvoudelairlhcehrdec.supabase.co`
-
-| الجدول | الوصف | العدد |
-|--------|-------|-------|
-| `products` | المنتجات | **30 منتج** |
-| `categories` | الفئات | **6 فئات** |
-| `orders` | الطلبات | ديناميكي |
-| `reviews` | التقييمات | ديناميكي |
-| `settings` | إعدادات المتجر | 11 إعداد |
-| `coupons` | كوبونات الخصم | - |
-| `banners` | البانرات | - |
-
-### 📁 الفئات الـ 6
-1. **خواتم** (rings)
-2. **قلايد** (necklaces)
-3. **أساور** (bracelets)
-4. **حلق** (earrings)
-5. **طقم** (sets)
-6. **خلاخيل** (anklets)
+```
+webapp/
+├── src/
+│   └── index.tsx          # كود الموقع الكامل (متجر + admin)
+├── public/
+│   └── static/
+│       ├── style.css      # CSS إضافي
+│       ├── favicon.svg    # أيقونة الموقع
+│       └── favicon.ico
+├── dist/                  # Build output
+│   ├── _worker.js        # Cloudflare Worker
+│   └── _routes.json
+├── netlify.toml           # إعدادات Netlify
+├── ecosystem.config.cjs   # PM2 للتطوير
+├── wrangler.jsonc         # إعدادات Cloudflare
+└── README.md
+```
 
 ---
 
-## 🔐 بيانات الدخول
+## 🚀 تشغيل محلياً
 
-### لوحة التحكم
-- **الرابط:** https://as-accessories-store.netlify.app/admin
-- **كلمة المرور:** `Basel.1611`
+```bash
+# تثبيت التبعيات
+cd /home/user/webapp && npm install
 
----
+# البناء
+npm run build
 
-## 📱 دليل الاستخدام
+# التشغيل مع PM2
+pm2 start ecosystem.config.cjs
 
-### للعميلة:
-1. تصفح المنتجات وافلتريها بالفئة
-2. اضغطي على المنتج لرؤية تفاصيله
-3. أضيفيه للسلة واضبطي الكمية
-4. اضغطي "تأكيد الطلب" وأدخلي بياناتك
-5. سيتم إرسال تأكيد الطلب
-
-### لصاحب المتجر (Admin):
-1. اذهب إلى `/admin`
-2. ادخل كلمة المرور: `Basel.1611`
-3. من القائمة الجانبية اختر:
-   - **المنتجات** → إضافة / تعديل / حذف
-   - **الطلبات** → متابعة وتحديث الحالة
-   - **الإعدادات** → تحديث رقم الواتساب وبيانات المتجر
+# الاختبار
+curl http://localhost:3000
+```
 
 ---
 
-## 🚀 حالة النشر
+## 📊 حالة النشر
 
 | المنصة | الحالة | الرابط |
 |--------|--------|--------|
-| **Netlify** | ✅ مفعل | https://as-accessories-store.netlify.app |
-| **GitHub** | ✅ مرفوع | https://github.com/Aaccessoriesstore/as-accessories-store |
-| **Supabase** | ✅ متصل | wuvoudelairlhcehrdec |
+| Netlify | ✅ منشور | https://as-accessories-store.netlify.app |
+| GitHub | ✅ مرفوع | https://github.com/Aaccessoriesstore/as-accessories-store |
+| Supabase | ✅ نشط | https://wuvoudelairlhcehrdec.supabase.co |
 
 **آخر تحديث:** 2026-04-29
