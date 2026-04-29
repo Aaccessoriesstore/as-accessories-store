@@ -1,21 +1,23 @@
-```txt
-npm install
-npm run dev
-```
+# A S Accessories Store 💎
 
-```txt
-npm run deploy
-```
+متجر إكسسوارات ستانلس ستيل حريمي احترافي
 
-[For generating/synchronizing types based on your Worker configuration run](https://developers.cloudflare.com/workers/wrangler/commands/#types):
+## الميزات
+- 🛍️ متجر كامل مع عرض المنتجات
+- 🔍 بحث وتصفية متقدم
+- 🛒 سلة تسوق ديناميكية
+- 📦 نظام طلبات متكامل
+- 💎 لوحة تحكم للمالك
+- 📱 تصميم متجاوب لكل الأجهزة
 
-```txt
-npm run cf-typegen
-```
+## لوحة التحكم
+- الرابط: /admin
+- كلمة المرور: Basel.1611
 
-Pass the `CloudflareBindings` as generics when instantiation `Hono`:
+## التقنيات
+- Hono + TypeScript
+- Supabase (PostgreSQL)
+- Cloudflare Workers/Pages
 
-```ts
-// src/index.ts
-const app = new Hono<{ Bindings: CloudflareBindings }>()
-```
+## Supabase Project
+- URL: https://wuvoudelairlhcehrdec.supabase.co
