@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pageTitle">A S Accessories | إكسسوارات ستانلس ستيل حريمي</title>
+<meta name="description" id="pageDesc" content="A S Accessories - براند إكسسوارات ستانلس ستيل حريمي فاخرة">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+:root{--gold:#C9A84C;--gold-light:#E8C97A;--gold-dark:#9C7A2E;--rose-gold:#D4A088;--black:#0D0D0D;--dark:#1A1A1A;--dark2:#242424;--dark3:#2E2E2E;--gray:#6B6B6B;--gray-light:#B0B0B0;--white:#FFFFFF;--cream:#FDF8F0;--cream2:#F9F3E8;--bg:#F5F0E8;--card-bg:#FFFFFF;--border:rgba(201,168,76,0.2);--shadow:0 4px 24px rgba(0,0,0,0.08);--shadow-lg:0 8px 40px rgba(0,0,0,0.12);--transition:all 0.3s cubic-bezier(0.4,0,0.2,1)}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Cairo',sans-serif;background:var(--cream);color:var(--black);direction:rtl;overflow-x:hidden}
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:var(--cream2)}::-webkit-scrollbar-thumb{background:var(--gold);border-radius:3px}
+#top-bar{background:var(--gold);color:var(--black);text-align:center;padding:8px;font-size:13px;font-weight:600;letter-spacing:0.5px}
+#top-bar a{color:var(--black);text-decoration:none;font-weight:700}
+header{background:var(--white);position:sticky;top:0;z-index:1000;box-shadow:0 2px 20px rgba(0,0,0,0.08)}
+.header-main{max-width:1400px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:70px;gap:20px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;flex-shrink:0}
+.logo-icon{width:46px;height:46px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:22px;box-shadow:0 4px 15px rgba(201,168,76,0.4)}
+.logo-text{line-height:1.2}
+.logo-name{font-size:18px;font-weight:900;color:var(--dark);letter-spacing:-0.5px}
+.logo-sub{font-size:11px;color:var(--gold);font-weight:600;letter-spacing:0.5px}
+.search-box{flex:1;max-width:500px;position:relative}
+.search-box input{width:100%;padding:10px 20px 10px 48px;border:2px solid var(--border);border-radius:50px;font-family:'Cairo',sans-serif;font-size:14px;background:var(--cream);color:var(--dark);transition:var(--transition);outline:none}
+.search-box input:focus{border-color:var(--gold);background:var(--white);box-shadow:0 0 0 4px rgba(201,168,76,0.1)}
+.search-box .search-btn{position:absolute;left:14px;top:50%;transform:translateY(-50%);background:none;border:none;color:var(--gold);font-size:16px;cursor:pointer}
+.header-actions{display:flex;align-items:center;gap:8px}
+.header-btn{width:44px;height:44px;border-radius:12px;border:none;background:var(--cream);color:var(--dark);font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:var(--transition);position:relative;text-decoration:none}
+.header-btn:hover{background:var(--gold);color:white;transform:translateY(-2px)}
+.cart-badge{position:absolute;top:-4px;right:-4px;background:#E63946;color:white;width:18px;height:18px;border-radius:50%;font-size:10px;font-weight:700;display:flex;align-items:center;justify-content:center;border:2px solid white}
+nav{background:var(--dark);border-top:2px solid var(--gold)}
+.nav-inner{max-width:1400px;margin:0 auto;padding:0 24px;display:flex;align-items:center;overflow-x:auto;scrollbar-width:none}
+.nav-inner::-webkit-scrollbar{display:none}
+.nav-link{color:var(--gray-light);text-decoration:none;padding:14px 18px;font-size:14px;font-weight:600;white-space:nowrap;transition:var(--transition);border-bottom:3px solid transparent;display:flex;align-items:center;gap:8px}
+.nav-link:hover,.nav-link.active{color:var(--gold);border-bottom-color:var(--gold);background:rgba(201,168,76,0.05)}
+.hero{background:linear-gradient(135deg,var(--dark) 0%,var(--dark2) 50%,#1a1208 100%);min-height:520px;display:flex;align-items:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 30% 50%,rgba(201,168,76,0.12) 0%,transparent 60%),radial-gradient(ellipse at 70% 20%,rgba(212,160,136,0.08) 0%,transparent 50%)}
+.hero-inner{max-width:1400px;margin:0 auto;padding:60px 24px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;position:relative;z-index:1}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(201,168,76,0.15);border:1px solid rgba(201,168,76,0.3);color:var(--gold-light);padding:6px 16px;border-radius:50px;font-size:13px;font-weight:600;margin-bottom:20px}
+.hero h1{color:var(--white);font-size:clamp(32px,4vw,52px);font-weight:900;line-height:1.15;margin-bottom:16px}
+.hero h1 span{background:linear-gradient(135deg,var(--gold-light),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero p{color:var(--gray-light);font-size:16px;line-height:1.7;margin-bottom:32px}
+.hero-btns{display:flex;gap:16px;flex-wrap:wrap}
+.btn-primary{background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:var(--white);padding:14px 32px;border-radius:50px;font-family:'Cairo',sans-serif;font-size:15px;font-weight:700;border:none;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px;transition:var(--transition);box-shadow:0 4px 20px rgba(201,168,76,0.4)}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 8px 30px rgba(201,168,76,0.5)}
+.btn-outline{background:transparent;color:var(--white);padding:14px 32px;border-radius:50px;font-family:'Cairo',sans-serif;font-size:15px;font-weight:700;border:2px solid rgba(255,255,255,0.3);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px;transition:var(--transition)}
+.btn-outline:hover{border-color:var(--gold);color:var(--gold);transform:translateY(-3px)}
+.hero-stats{display:flex;gap:32px;margin-top:40px}
+.stat{text-align:center}
+.stat-num{font-size:28px;font-weight:900;color:var(--gold);display:block}
+.stat-label{font-size:12px;color:var(--gray-light);font-weight:500}
+.hero-visual{position:relative;display:flex;align-items:center;justify-content:center}
+.hero-img-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:440px}
+.hero-img-item{border-radius:16px;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,0.4);aspect-ratio:3/4;position:relative}
+.hero-img-item:first-child{grid-row:span 2;aspect-ratio:auto;min-height:280px}
+.hero-img-item img{width:100%;height:100%;object-fit:cover;transition:transform 0.6s ease}
+.hero-img-item:hover img{transform:scale(1.05)}
+.hero-badge-float{position:absolute;bottom:-10px;left:-10px;background:var(--gold);color:var(--dark);padding:10px 16px;border-radius:12px;font-size:13px;font-weight:800;box-shadow:0 4px 20px rgba(201,168,76,0.5);z-index:10}
+.features-bar{background:var(--white);border-top:3px solid var(--gold);padding:24px}
+.features-inner{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr)}
+.feature-item{display:flex;align-items:center;gap:12px;padding:0 24px;border-left:1px solid var(--border)}
+.feature-item:last-child{border-left:none}
+.feature-icon{width:46px;height:46px;background:linear-gradient(135deg,rgba(201,168,76,0.15),rgba(201,168,76,0.05));border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:20px;color:var(--gold);flex-shrink:0}
+.feature-title{font-size:14px;font-weight:700;color:var(--dark)}
+.feature-sub{font-size:12px;color:var(--gray);margin-top:2px}
+.section{padding:64px 24px;max-width:1400px;margin:0 auto}
+.section-header{text-align:center;margin-bottom:48px}
+.section-label{display:inline-flex;align-items:center;gap:8px;color:var(--gold);font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px}
+.section-label::before,.section-label::after{content:'';width:30px;height:1px;background:var(--gold)}
+.section-title{font-size:clamp(24px,3vw,36px);font-weight:900;color:var(--dark);margin-bottom:12px}
+.section-desc{color:var(--gray);font-size:15px;max-width:500px;margin:0 auto;line-height:1.7}
+.categories-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
+.category-card{background:var(--white);border-radius:20px;overflow:hidden;cursor:pointer;transition:var(--transition);border:2px solid transparent;text-decoration:none;box-shadow:var(--shadow)}
+.category-card:hover{border-color:var(--gold);transform:translateY(-6px);box-shadow:var(--shadow-lg)}
+.cat-img{width:100%;aspect-ratio:1;overflow:hidden;position:relative}
+.cat-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease}
+.category-card:hover .cat-img img{transform:scale(1.1)}
+.cat-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.6) 0%,transparent 60%)}
+.cat-info{padding:14px 12px;text-align:center}
+.cat-name{font-size:14px;font-weight:800;color:var(--dark);display:block}
+.cat-count{font-size:12px;color:var(--gold);font-weight:600;margin-top:2px}
+.filter-bar{background:var(--white);border-radius:16px;padding:20px 24px;margin-bottom:32px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;box-shadow:var(--shadow)}
+.filter-label{font-weight:700;color:var(--dark);font-size:14px;flex-shrink:0}
+.filter-tags{display:flex;gap:8px;flex-wrap:wrap;flex:1}
+.filter-tag{padding:7px 18px;border-radius:50px;font-size:13px;font-weight:600;cursor:pointer;border:2px solid var(--border);background:var(--cream);color:var(--gray);transition:var(--transition);font-family:'Cairo',sans-serif}
+.filter-tag:hover,.filter-tag.active{background:var(--gold);color:var(--white);border-color:var(--gold)}
+.sort-select{padding:8px 16px;border:2px solid var(--border);border-radius:50px;font-family:'Cairo',sans-serif;font-size:13px;color:var(--dark);background:var(--cream);outline:none;cursor:pointer}
+.products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:24px}
+.product-card{background:var(--white);border-radius:20px;overflow:hidden;box-shadow:var(--shadow);transition:var(--transition);position:relative;cursor:pointer;border:2px solid transparent}
+.product-card:hover{transform:translateY(-8px);box-shadow:var(--shadow-lg);border-color:rgba(201,168,76,0.3)}
+.product-badges{position:absolute;top:12px;right:12px;z-index:5;display:flex;flex-direction:column;gap:6px}
+.badge{padding:4px 10px;border-radius:8px;font-size:11px;font-weight:800;letter-spacing:0.5px;display:inline-block}
+.badge-new{background:var(--gold);color:var(--dark)}
+.badge-sale{background:#E63946;color:white}
+.badge-featured{background:#6B48FF;color:white}
+.product-actions{position:absolute;top:12px;left:12px;z-index:5;display:flex;flex-direction:column;gap:6px;opacity:0;transform:translateX(10px);transition:var(--transition)}
+.product-card:hover .product-actions{opacity:1;transform:translateX(0)}
+.action-btn{width:36px;height:36px;border-radius:10px;background:white;border:none;color:var(--dark);font-size:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 12px rgba(0,0,0,0.15);transition:var(--transition)}
+.action-btn:hover{background:var(--gold);color:white}
+.product-img{width:100%;aspect-ratio:1;overflow:hidden;position:relative;background:var(--cream2)}
+.product-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease}
+.product-card:hover .product-img img{transform:scale(1.08)}
+.product-info{padding:18px}
+.product-category{font-size:11px;color:var(--gold);font-weight:700;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px}
+.product-name{font-size:15px;font-weight:700;color:var(--dark);margin-bottom:6px;line-height:1.4}
+.product-material{font-size:12px;color:var(--gray);margin-bottom:12px;display:flex;align-items:center;gap:4px}
+.product-footer{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.product-price{display:flex;flex-direction:column}
+.price-current{font-size:20px;font-weight:900;color:var(--gold-dark)}
+.price-old{font-size:13px;color:var(--gray);text-decoration:line-through}
+.add-cart-btn{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));border:none;color:white;font-size:17px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:var(--transition);box-shadow:0 4px 15px rgba(201,168,76,0.4);flex-shrink:0}
+.add-cart-btn:hover{transform:scale(1.1);box-shadow:0 6px 20px rgba(201,168,76,0.5)}
+.skeleton{background:linear-gradient(90deg,#f0f0f0 25%,#e0e0e0 50%,#f0f0f0 75%);background-size:200% 100%;animation:shimmer 1.5s infinite;border-radius:8px}
+@keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
+.promo-section{background:linear-gradient(135deg,var(--dark) 0%,var(--dark2) 100%);padding:64px 24px;position:relative;overflow:hidden}
+.promo-section::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 20% 50%,rgba(201,168,76,0.1) 0%,transparent 60%)}
+.promo-inner{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;position:relative;z-index:1}
+.promo-text h2{color:var(--white);font-size:36px;font-weight:900;margin-bottom:16px;line-height:1.3}
+.promo-text h2 span{color:var(--gold-light)}
+.promo-text p{color:var(--gray-light);font-size:15px;line-height:1.7;margin-bottom:28px}
+.promo-features{list-style:none;margin-bottom:32px}
+.promo-features li{display:flex;align-items:center;gap:10px;color:var(--gray-light);font-size:14px;margin-bottom:12px}
+.promo-features li i{color:var(--gold);font-size:16px;width:20px}
+.promo-img{position:relative;display:flex;justify-content:center}
+.promo-img-main{width:100%;max-width:420px;border-radius:24px;overflow:hidden;box-shadow:0 16px 50px rgba(0,0,0,0.5)}
+.promo-img-main img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/3}
+.promo-tag{position:absolute;top:-15px;right:20px;background:var(--gold);color:var(--dark);padding:10px 20px;border-radius:12px;font-size:14px;font-weight:900;box-shadow:0 4px 20px rgba(201,168,76,0.5)}
+.testimonials-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.testimonial-card{background:var(--white);border-radius:20px;padding:28px;box-shadow:var(--shadow);border:1px solid var(--border);transition:var(--transition)}
+.testimonial-card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:var(--shadow-lg)}
+.test-stars{color:var(--gold);font-size:16px;margin-bottom:14px;letter-spacing:2px}
+.test-text{color:var(--gray);font-size:14px;line-height:1.7;margin-bottom:20px;font-style:italic}
+.test-author{display:flex;align-items:center;gap:12px}
+.test-avatar{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--rose-gold));display:flex;align-items:center;justify-content:center;color:white;font-weight:800;font-size:16px;flex-shrink:0}
+.test-name{font-weight:700;color:var(--dark);font-size:14px}
+.test-location{font-size:12px;color:var(--gold);font-weight:600}
+.newsletter{background:linear-gradient(135deg,var(--gold),var(--gold-dark));border-radius:24px;padding:48px;text-align:center;margin:0 24px}
+.newsletter h2{color:var(--white);font-size:28px;font-weight:900;margin-bottom:8px}
+.newsletter p{color:rgba(255,255,255,0.85);font-size:15px;margin-bottom:28px}
+.newsletter-form{display:flex;gap:12px;max-width:480px;margin:0 auto}
+.newsletter-form input{flex:1;padding:14px 20px;border-radius:50px;border:none;font-family:'Cairo',sans-serif;font-size:14px;outline:none}
+.newsletter-form button{padding:14px 28px;background:var(--dark);color:white;border:none;border-radius:50px;font-family:'Cairo',sans-serif;font-size:14px;font-weight:700;cursor:pointer;white-space:nowrap;transition:var(--transition)}
+footer{background:var(--dark);color:var(--gray-light);margin-top:64px;border-top:3px solid var(--gold)}
+.footer-main{max-width:1400px;margin:0 auto;padding:56px 24px 40px;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px}
+.footer-brand .logo-name{color:var(--white)}
+.footer-brand .logo-sub{color:var(--gold)}
+.footer-brand p{color:var(--gray);font-size:14px;line-height:1.7;margin:16px 0 24px}
+.social-links{display:flex;gap:10px}
+.social-link{width:40px;height:40px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:17px;transition:var(--transition);text-decoration:none}
+.social-fb{background:#1877F2;color:white}
+.social-wa{background:#25D366;color:white}
+.social-ig{background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);color:white}
+.social-tt{background:#000;color:white}
+.social-link:hover{transform:translateY(-4px) scale(1.1)}
+.footer-col h4{color:var(--white);font-size:15px;font-weight:800;margin-bottom:20px;padding-bottom:10px;border-bottom:2px solid rgba(201,168,76,0.3)}
+.footer-links{list-style:none}
+.footer-links li{margin-bottom:10px}
+.footer-links a{color:var(--gray);text-decoration:none;font-size:14px;transition:var(--transition);display:flex;align-items:center;gap:6px}
+.footer-links a:hover{color:var(--gold);padding-right:4px}
+.footer-contact-item{display:flex;align-items:center;gap:10px;color:var(--gray);font-size:13px;margin-bottom:12px}
+.footer-contact-item i{color:var(--gold);width:16px;font-size:14px}
+.footer-bottom{border-top:1px solid rgba(255,255,255,0.08);padding:20px 24px;text-align:center;max-width:1400px;margin:0 auto;display:flex;align-items:center;justify-content:space-between}
+.footer-bottom p{font-size:13px;color:var(--gray)}
+.footer-bottom a{color:var(--gold);text-decoration:none;font-weight:700}
+.cart-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:9000;opacity:0;visibility:hidden;transition:var(--transition);backdrop-filter:blur(4px)}
+.cart-overlay.open{opacity:1;visibility:visible}
+.cart-drawer{position:fixed;top:0;left:0;width:100%;max-width:440px;height:100%;background:var(--white);z-index:9001;transform:translateX(-100%);transition:transform 0.4s cubic-bezier(0.4,0,0.2,1);display:flex;flex-direction:column}
+.cart-overlay.open .cart-drawer{transform:translateX(0)}
+.cart-header{padding:24px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;background:var(--cream)}
+.cart-header h3{font-size:18px;font-weight:800;color:var(--dark)}
+.cart-close{width:36px;height:36px;border-radius:10px;border:none;background:var(--white);color:var(--dark);font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:var(--transition)}
+.cart-close:hover{background:var(--gold);color:white}
+.cart-items{flex:1;overflow-y:auto;padding:20px}
+.cart-item{display:flex;gap:14px;padding:16px 0;border-bottom:1px solid var(--border)}
+.cart-item-img{width:72px;height:72px;border-radius:12px;object-fit:cover;flex-shrink:0}
+.cart-item-info{flex:1}
+.cart-item-name{font-size:14px;font-weight:700;color:var(--dark);margin-bottom:4px}
+.cart-item-price{font-size:15px;font-weight:800;color:var(--gold-dark);margin-bottom:8px}
+.cart-item-qty{display:flex;align-items:center;gap:10px}
+.qty-btn{width:28px;height:28px;border-radius:8px;border:2px solid var(--border);background:var(--cream);color:var(--dark);font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-weight:700;transition:var(--transition)}
+.qty-btn:hover{border-color:var(--gold);color:var(--gold)}
+.qty-num{font-weight:700;font-size:15px;min-width:24px;text-align:center}
+.cart-item-del{width:32px;height:32px;border-radius:10px;border:none;background:#FFE5E5;color:#E63946;font-size:14px;cursor:pointer;display:flex;align-items:center;justify-content:center;align-self:flex-start;transition:var(--transition)}
+.cart-item-del:hover{background:#E63946;color:white}
+.cart-footer{padding:20px 24px;border-top:1px solid var(--border);background:var(--cream)}
+.cart-total-row{display:flex;justify-content:space-between;margin-bottom:8px;font-size:14px;color:var(--gray)}
+.cart-total-row.final{font-size:18px;font-weight:900;color:var(--dark);margin-top:12px;padding-top:12px;border-top:2px solid var(--border)}
+.checkout-btn{width:100%;padding:16px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:white;border:none;border-radius:14px;font-family:'Cairo',sans-serif;font-size:16px;font-weight:800;cursor:pointer;margin-top:16px;transition:var(--transition);box-shadow:0 4px 20px rgba(201,168,76,0.4)}
+.checkout-btn:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(201,168,76,0.5)}
+.empty-cart{text-align:center;padding:60px 20px;color:var(--gray)}
+.empty-cart i{font-size:64px;color:var(--border);margin-bottom:16px;display:block}
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:8000;opacity:0;visibility:hidden;transition:var(--transition);backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;padding:20px}
+.modal-overlay.open{opacity:1;visibility:visible}
+.product-modal{background:var(--white);border-radius:24px;max-width:880px;width:100%;max-height:90vh;overflow-y:auto;display:grid;grid-template-columns:1fr 1fr;position:relative;box-shadow:0 24px 80px rgba(0,0,0,0.4)}
+.modal-close{position:absolute;top:16px;left:16px;z-index:10;width:40px;height:40px;border-radius:12px;border:none;background:rgba(0,0,0,0.6);color:white;font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:var(--transition);backdrop-filter:blur(4px)}
+.modal-close:hover{background:var(--gold)}
+.modal-img{position:relative;overflow:hidden;border-radius:24px 0 0 24px}
+.modal-img img{width:100%;height:100%;object-fit:cover;min-height:400px}
+.modal-img-thumbs{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);display:flex;gap:8px}
+.img-thumb{width:48px;height:48px;border-radius:8px;object-fit:cover;cursor:pointer;border:2px solid transparent;transition:var(--transition)}
+.img-thumb.active,.img-thumb:hover{border-color:var(--gold)}
+.modal-info{padding:36px 32px;display:flex;flex-direction:column}
+.modal-category{font-size:12px;font-weight:700;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px}
+.modal-name{font-size:24px;font-weight:900;color:var(--dark);margin-bottom:8px;line-height:1.3}
+.modal-rating{display:flex;align-items:center;gap:8px;margin-bottom:16px}
+.stars{color:var(--gold);font-size:14px}
+.rating-count{font-size:13px;color:var(--gray)}
+.modal-price-row{display:flex;align-items:baseline;gap:12px;margin-bottom:20px}
+.modal-price{font-size:32px;font-weight:900;color:var(--gold-dark)}
+.modal-price-old{font-size:18px;color:var(--gray);text-decoration:line-through}
+.modal-discount{background:#E63946;color:white;padding:3px 10px;border-radius:8px;font-size:12px;font-weight:800}
+.modal-desc{color:var(--gray);font-size:14px;line-height:1.8;margin-bottom:24px;padding:16px;background:var(--cream);border-radius:12px}
+.modal-meta{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:24px}
+.meta-item{background:var(--cream2);border-radius:10px;padding:10px 14px}
+.meta-label{font-size:11px;color:var(--gray);font-weight:600;text-transform:uppercase;letter-spacing:0.5px;display:block}
+.meta-value{font-size:13px;font-weight:700;color:var(--dark);margin-top:2px}
+.modal-qty-row{display:flex;align-items:center;gap:12px;margin-bottom:20px}
+.modal-qty-label{font-size:14px;font-weight:700;color:var(--dark)}
+.modal-qty-controls{display:flex;align-items:center;border:2px solid var(--border);border-radius:12px;overflow:hidden}
+.modal-qty-btn{width:40px;height:40px;border:none;background:var(--cream);font-size:18px;cursor:pointer;transition:var(--transition);font-weight:700}
+.modal-qty-btn:hover{background:var(--gold);color:white}
+.modal-qty-num{width:48px;text-align:center;font-size:16px;font-weight:800;border:none;outline:none;font-family:'Cairo',sans-serif}
+.modal-btns{display:flex;gap:12px;margin-top:auto}
+.modal-cart-btn{flex:1;padding:14px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:white;border:none;border-radius:14px;font-family:'Cairo',sans-serif;font-size:15px;font-weight:800;cursor:pointer;transition:var(--transition);box-shadow:0 4px 20px rgba(201,168,76,0.4);display:flex;align-items:center;justify-content:center;gap:8px}
+.modal-cart-btn:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(201,168,76,0.5)}
+.modal-wa-btn{width:52px;height:52px;border-radius:14px;border:none;background:#25D366;color:white;font-size:22px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:var(--transition)}
+.modal-wa-btn:hover{transform:scale(1.1)}
+.checkout-modal{background:var(--white);border-radius:24px;max-width:600px;width:100%;max-height:90vh;overflow-y:auto;box-shadow:0 24px 80px rgba(0,0,0,0.4)}
+.checkout-header{padding:24px 28px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;background:linear-gradient(135deg,var(--dark),var(--dark2))}
+.checkout-header h3{color:white;font-size:20px;font-weight:800}
+.checkout-body{padding:28px}
+.form-group{margin-bottom:18px}
+.form-group label{display:block;font-size:13px;font-weight:700;color:var(--dark);margin-bottom:6px}
+.form-group label span{color:var(--gold)}
+.form-input{width:100%;padding:12px 16px;border:2px solid var(--border);border-radius:12px;font-family:'Cairo',sans-serif;font-size:14px;color:var(--dark);background:var(--cream);outline:none;transition:var(--transition)}
+.form-input:focus{border-color:var(--gold);background:white;box-shadow:0 0 0 4px rgba(201,168,76,0.1)}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.order-summary{background:var(--cream);border-radius:16px;padding:20px;margin:20px 0}
+.order-summary h4{font-size:15px;font-weight:800;color:var(--dark);margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.summary-item{display:flex;justify-content:space-between;font-size:13px;color:var(--gray);margin-bottom:8px}
+.summary-total{display:flex;justify-content:space-between;font-size:18px;font-weight:900;color:var(--dark);padding-top:12px;border-top:2px solid var(--border);margin-top:8px}
+.place-order-btn{width:100%;padding:16px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:white;border:none;border-radius:14px;font-family:'Cairo',sans-serif;font-size:17px;font-weight:800;cursor:pointer;transition:var(--transition);box-shadow:0 4px 20px rgba(201,168,76,0.4);display:flex;align-items:center;justify-content:center;gap:10px}
+.place-order-btn:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(201,168,76,0.5)}
+.success-modal{background:var(--white);border-radius:24px;max-width:440px;width:100%;padding:48px 32px;text-align:center;box-shadow:0 24px 80px rgba(0,0,0,0.4)}
+.success-icon{width:80px;height:80px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:36px;color:white;margin:0 auto 24px;animation:bounceIn 0.6s ease}
+@keyframes bounceIn{0%{transform:scale(0)}60%{transform:scale(1.15)}100%{transform:scale(1)}}
+.success-modal h3{font-size:24px;font-weight:900;color:var(--dark);margin-bottom:12px}
+.success-modal p{color:var(--gray);font-size:15px;line-height:1.7;margin-bottom:8px}
+.success-order-num{background:var(--cream);border-radius:12px;padding:12px 20px;font-size:16px;font-weight:800;color:var(--gold-dark);margin:16px 0 24px}
+.toast-container{position:fixed;bottom:24px;right:24px;z-index:9999;display:flex;flex-direction:column;gap:10px}
+.toast{background:var(--dark);color:white;padding:14px 20px;border-radius:14px;font-size:14px;font-weight:600;box-shadow:0 8px 30px rgba(0,0,0,0.3);display:flex;align-items:center;gap:10px;animation:slideInRight 0.4s ease;min-width:260px;border-right:4px solid var(--gold)}
+.toast.success{border-right-color:#25D366}
+.toast.error{border-right-color:#E63946}
+@keyframes slideInRight{from{transform:translateX(120%);opacity:0}to{transform:translateX(0);opacity:1}}
+.wa-float{position:fixed;bottom:28px;left:28px;width:60px;height:60px;border-radius:50%;background:#25D366;color:white;font-size:28px;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,0.5);z-index:8000;text-decoration:none;animation:pulse 2s infinite;transition:var(--transition)}
+.wa-float:hover{transform:scale(1.1)}
+@keyframes pulse{0%,100%{box-shadow:0 4px 20px rgba(37,211,102,0.5)}50%{box-shadow:0 4px 40px rgba(37,211,102,0.8)}}
+/* MAINTENANCE */
+.maintenance-page{min-height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--dark),var(--dark2));text-align:center;padding:40px}
+.maintenance-box{background:white;border-radius:24px;padding:60px 40px;max-width:500px}
+.maintenance-box i{font-size:64px;color:var(--gold);margin-bottom:24px;display:block}
+.maintenance-box h1{font-size:28px;font-weight:900;color:var(--dark);margin-bottom:12px}
+.maintenance-box p{color:var(--gray);font-size:16px;line-height:1.7}
+@media(max-width:1100px){.categories-grid{grid-template-columns:repeat(3,1fr)}.footer-main{grid-template-columns:1fr 1fr;gap:32px}}
+@media(max-width:900px){.hero-inner{grid-template-columns:1fr;text-align:center}.hero-visual{display:none}.hero-btns{justify-content:center}.hero-stats{justify-content:center}.features-inner{grid-template-columns:repeat(2,1fr)}.feature-item{border-left:none;border-bottom:1px solid var(--border);padding:16px}.promo-inner{grid-template-columns:1fr;text-align:center}.testimonials-grid{grid-template-columns:1fr 1fr}.product-modal{grid-template-columns:1fr}.modal-img{border-radius:24px 24px 0 0;min-height:250px}.modal-img img{min-height:250px}}
+@media(max-width:640px){.header-main{padding:0 16px;height:60px}.search-box{display:none}.hero h1{font-size:28px}.categories-grid{grid-template-columns:repeat(3,1fr);gap:10px}.products-grid{grid-template-columns:repeat(2,1fr);gap:12px}.product-info{padding:12px}.features-inner{grid-template-columns:repeat(2,1fr)}.testimonials-grid{grid-template-columns:1fr}.footer-main{grid-template-columns:1fr;gap:28px}.newsletter{margin:0 16px;padding:32px 20px}.newsletter-form{flex-direction:column}.footer-bottom{flex-direction:column;gap:8px;text-align:center}.section{padding:48px 16px}.cart-drawer{max-width:100%}.form-row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<div id="maintenanceWrap" style="display:none" class="maintenance-page">
+  <div class="maintenance-box">
+    <i class="fas fa-tools"></i>
+    <h1>الموقع تحت الصيانة</h1>
+    <p id="maintenanceMsg">نحن نعمل على تحسين تجربتك. سنعود قريباً إن شاء الله!</p>
+  </div>
+</div>
+
+<div id="storeWrap">
+<!-- TOP BAR -->
+<div id="top-bar" style="display:none">
+  <span id="topbarText">🌹 مرحباً بك في A S Accessories | شحن لجميع محافظات مصر 🚚</span>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="header-main">
+    <a href="/" class="logo">
+      <div class="logo-icon" id="logoIcon">💎</div>
+      <div class="logo-text">
+        <div class="logo-name" id="logoName">A S Accessories</div>
+        <div class="logo-sub">STAINLESS STEEL JEWELRY</div>
+      </div>
+    </a>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="ابحث عن إكسسوارك المفضل..." oninput="handleSearch(this.value)">
+      <button class="search-btn"><i class="fas fa-search"></i></button>
+    </div>
+    <div class="header-actions">
+      <a id="waHeaderBtn" href="#" target="_blank" class="header-btn" title="واتساب">
+        <i class="fab fa-whatsapp" style="color:#25D366"></i>
+      </a>
+      <button class="header-btn" onclick="toggleCart()" title="سلة التسوق">
+        <i class="fas fa-shopping-bag"></i>
+        <span class="cart-badge" id="cartBadge" style="display:none">0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner" id="mainNav">
+    <a href="#" class="nav-link active" onclick="filterByCategory('all',this)"><i class="fas fa-th-large"></i> الكل</a>
+    <a href="#" class="nav-link" onclick="filterByCategory('rings',this)"><i class="fas fa-ring"></i> خواتم</a>
+    <a href="#" class="nav-link" onclick="filterByCategory('necklaces',this)"><i class="fas fa-gem"></i> قلايد</a>
+    <a href="#" class="nav-link" onclick="filterByCategory('bracelets',this)"><i class="fas fa-circle-notch"></i> أساور</a>
+    <a href="#" class="nav-link" onclick="filterByCategory('earrings',this)"><i class="fas fa-star"></i> حلق</a>
+    <a href="#" class="nav-link" onclick="filterByCategory('sets',this)"><i class="fas fa-box"></i> طقم</a>
+    <a href="#" class="nav-link" onclick="filterByCategory('anklets',this)"><i class="fas fa-link"></i> خلاخيل</a>
+    <a href="#" class="nav-link" onclick="filterFeatured(this)" style="color:var(--gold)"><i class="fas fa-fire"></i> الأكثر مبيعاً</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge"><i class="fas fa-certificate"></i><span id="heroBadge">براند إكسسوارات ستانلس ستيل</span></div>
+      <h1 id="heroTitle">أناقتك<br><span>تعريف آخر</span><br>للجمال</h1>
+      <p id="heroSubtitle">إكسسوارات ستانلس ستيل حريمي فاخرة لا تتأكسد ولا تغير لونها — تصاميم عصرية بأسعار مناسبة.</p>
+      <div class="hero-btns">
+        <a href="#products" class="btn-primary"><i class="fas fa-shopping-bag"></i><span id="heroBtn1">تسوقي الآن</span></a>
+        <a id="heroBtn2Link" href="#" target="_blank" class="btn-outline"><i class="fab fa-facebook"></i><span id="heroBtn2">صفحتنا</span></a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num" id="stat1Num">500+</span><span class="stat-label" id="stat1Label">عميلة سعيدة</span></div>
+        <div class="stat"><span class="stat-num" id="stat2Num">100+</span><span class="stat-label" id="stat2Label">تصميم فريد</span></div>
+        <div class="stat"><span class="stat-num" id="stat3Num">6</span><span class="stat-label" id="stat3Label">فئات متنوعة</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-img-grid">
+        <div class="hero-img-item" style="min-height:280px">
+          <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=600&q=80" alt="إكسسوارات فاخرة" loading="lazy">
+          <div class="cat-overlay"></div>
+          <div class="hero-badge-float">✨ جديد</div>
+        </div>
+        <div class="hero-img-item">
+          <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&q=80" alt="خواتم ستانلس" loading="lazy">
+        </div>
+        <div class="hero-img-item">
+          <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&q=80" alt="قلايد" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<div class="features-bar">
+  <div class="features-inner">
+    <div class="feature-item"><div class="feature-icon"><i class="fas fa-truck"></i></div><div><div class="feature-title" id="feat1T">شحن لكل مصر</div><div class="feature-sub" id="feat1S">توصيل لجميع المحافظات</div></div></div>
+    <div class="feature-item"><div class="feature-icon"><i class="fas fa-shield-alt"></i></div><div><div class="feature-title" id="feat2T">ستانلس أصلي 100%</div><div class="feature-sub" id="feat2S">لا يتأكسد ولا يغير اللون</div></div></div>
+    <div class="feature-item"><div class="feature-icon"><i class="fas fa-undo-alt"></i></div><div><div class="feature-title" id="feat3T">استبدال مضمون</div><div class="feature-sub" id="feat3S">في حالة أي عيب مصنعي</div></div></div>
+    <div class="feature-item"><div class="feature-icon"><i class="fas fa-headset"></i></div><div><div class="feature-title" id="feat4T">دعم على مدار الساعة</div><div class="feature-sub" id="feat4S">واتساب وفيسبوك</div></div></div>
+  </div>
+</div>
+
+<!-- CATEGORIES -->
+<section class="section">
+  <div class="section-header">
+    <div class="section-label">تسوقي حسب الفئة</div>
+    <h2 class="section-title">اكتشفي مجموعاتنا</h2>
+    <p class="section-desc">كل فئة مختارة بعناية لتناسب كل إطلالة وكل مناسبة</p>
+  </div>
+  <div class="categories-grid" id="categoriesGrid"></div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="section" id="products" style="padding-top:0">
+  <div class="section-header">
+    <div class="section-label">منتجاتنا المميزة</div>
+    <h2 class="section-title" id="productsTitle">أحدث الإكسسوارات</h2>
+    <p class="section-desc">مجموعة مختارة من أجمل الإكسسوارات بأفضل الأسعار</p>
+  </div>
+  <div class="filter-bar">
+    <span class="filter-label"><i class="fas fa-sliders-h"></i> تصفية:</span>
+    <div class="filter-tags">
+      <button class="filter-tag active" onclick="setFilter('all',this)">الكل</button>
+      <button class="filter-tag" onclick="setFilter('new',this)">جديد 🆕</button>
+      <button class="filter-tag" onclick="setFilter('sale',this)">عروض 🔥</button>
+      <button class="filter-tag" onclick="setFilter('featured',this)">الأكثر مبيعاً ⭐</button>
+    </div>
+    <select class="sort-select" onchange="sortProducts(this.value)">
+      <option value="default">الترتيب الافتراضي</option>
+      <option value="price-asc">السعر: من الأقل للأعلى</option>
+      <option value="price-desc">السعر: من الأعلى للأقل</option>
+      <option value="newest">الأحدث أولاً</option>
+    </select>
+  </div>
+  <div class="products-grid" id="productsGrid"></div>
+  <div style="text-align:center;margin-top:40px">
+    <button class="btn-primary" id="loadMoreBtn" onclick="loadMoreProducts()" style="display:none"><i class="fas fa-plus"></i> عرض المزيد</button>
+  </div>
+</section>
+
+<!-- PROMO -->
+<div class="promo-section" id="promoSection">
+  <div class="promo-inner">
+    <div class="promo-text">
+      <div class="hero-badge" style="margin-bottom:20px"><i class="fas fa-star"></i> لماذا نختار ستانلس ستيل؟</div>
+      <h2 id="promoTitle">إكسسوارات تدوم <span>معك للأبد</span></h2>
+      <p id="promoText">الستانلس ستيل هو الخيار الأمثل للإكسسوارات الحديثة — يجمع بين الأناقة والمتانة والعملية.</p>
+      <ul class="promo-features">
+        <li><i class="fas fa-check-circle"></i> لا يتأكسد أو يصدأ مع الوقت</li>
+        <li><i class="fas fa-check-circle"></i> مقاوم للماء والعرق وكل الظروف</li>
+        <li><i class="fas fa-check-circle"></i> لا يسبب حساسية للبشرة</li>
+        <li><i class="fas fa-check-circle"></i> يحافظ على لمعانه لسنوات طويلة</li>
+        <li><i class="fas fa-check-circle"></i> بأسعار في متناول الجميع</li>
+      </ul>
+      <a href="#products" class="btn-primary"><i class="fas fa-shopping-bag"></i> تسوقي الكوليكشن</a>
+    </div>
+    <div class="promo-img">
+      <div class="promo-img-main">
+        <img id="promoImg" src="https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=800&q=80" alt="إكسسوارات ستانلس ستيل" loading="lazy">
+      </div>
+      <div class="promo-tag">🛡️ جودة مضمونة</div>
+    </div>
+  </div>
+</div>
+
+<!-- TESTIMONIALS -->
+<section class="section" id="reviewsSection">
+  <div class="section-header">
+    <div class="section-label">آراء عميلاتنا</div>
+    <h2 class="section-title">قالوا عنا</h2>
+    <p class="section-desc">رأي عميلاتنا هو أكبر دليل على جودتنا</p>
+  </div>
+  <div class="testimonials-grid">
+    <div class="testimonial-card"><div class="test-stars">★★★★★</div><p class="test-text">"الأسوارة جميلة جداً والجودة ممتازة! لبستها من أسبوعين ومفيش أي تغيير في اللون."</p><div class="test-author"><div class="test-avatar">ن</div><div><div class="test-name">نور أحمد</div><div class="test-location">القاهرة</div></div></div></div>
+    <div class="testimonial-card"><div class="test-stars">★★★★★</div><p class="test-text">"اشتريت طقم العروسة وكان روعة! الشحن وصل بسرعة والتغليف كان أنيق جداً."</p><div class="test-author"><div class="test-avatar">س</div><div><div class="test-name">سلمى محمود</div><div class="test-location">الإسكندرية</div></div></div></div>
+    <div class="testimonial-card"><div class="test-stars">★★★★★</div><p class="test-text">"القلادة تحفة فعلاً! مختلفة عن أي حاجة شفتها قبل كده. والسعر معقول جداً."</p><div class="test-author"><div class="test-avatar">م</div><div><div class="test-name">مريم خالد</div><div class="test-location">الجيزة</div></div></div></div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<div style="padding:0 0 64px" id="newsletterSection">
+  <div class="newsletter">
+    <i class="fas fa-bell" style="font-size:40px;color:rgba(255,255,255,0.9);margin-bottom:16px;display:block"></i>
+    <h2>ابقي على اطلاع بأحدث المجموعات</h2>
+    <p>سجّلي إيميلك واحصلي على أول علم بالعروض والكوليكشنات الجديدة</p>
+    <form class="newsletter-form" onsubmit="subscribeNewsletter(event)">
+      <input type="email" placeholder="ادخلي إيميلك..." required>
+      <button type="submit">اشتركي 💌</button>
+    </form>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-main">
+    <div class="footer-brand">
+      <div class="logo"><div class="logo-icon">💎</div><div class="logo-text"><div class="logo-name" id="footerLogoName">A S Accessories</div><div class="logo-sub">STAINLESS STEEL JEWELRY</div></div></div>
+      <p id="footerDesc">براند متخصص في إكسسوارات الستانلس ستيل الحريمي الفاخرة.</p>
+      <div class="social-links" id="socialLinks">
+        <a id="fbLink" href="#" target="_blank" class="social-link social-fb" title="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+        <a id="waLink" href="#" target="_blank" class="social-link social-wa" title="واتساب"><i class="fab fa-whatsapp"></i></a>
+        <a id="igLink" href="#" target="_blank" class="social-link social-ig" title="انستجرام" style="display:none"><i class="fab fa-instagram"></i></a>
+        <a id="ttLink" href="#" target="_blank" class="social-link social-tt" title="تيك توك" style="display:none"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>تسوقي</h4>
+      <ul class="footer-links">
+        <li><a href="#" onclick="filterByCategory('rings',null)"><i class="fas fa-chevron-left"></i> خواتم</a></li>
+        <li><a href="#" onclick="filterByCategory('necklaces',null)"><i class="fas fa-chevron-left"></i> قلايد</a></li>
+        <li><a href="#" onclick="filterByCategory('bracelets',null)"><i class="fas fa-chevron-left"></i> أساور</a></li>
+        <li><a href="#" onclick="filterByCategory('earrings',null)"><i class="fas fa-chevron-left"></i> حلق</a></li>
+        <li><a href="#" onclick="filterByCategory('sets',null)"><i class="fas fa-chevron-left"></i> طقم</a></li>
+        <li><a href="#" onclick="filterFeatured(null)"><i class="fas fa-fire" style="color:var(--gold)"></i> الأكثر مبيعاً</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>معلومات</h4>
+      <ul class="footer-links">
+        <li><a href="#"><i class="fas fa-chevron-left"></i> عنّا</a></li>
+        <li><a href="#"><i class="fas fa-chevron-left"></i> سياسة الشحن</a></li>
+        <li><a href="#"><i class="fas fa-chevron-left"></i> سياسة الاستبدال</a></li>
+        <li><a href="#"><i class="fas fa-chevron-left"></i> الأسئلة الشائعة</a></li>
+        <li><a href="/admin"><i class="fas fa-chevron-left"></i> لوحة الإدارة</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>تواصلي معنا</h4>
+      <div class="footer-contact-item"><i class="fab fa-whatsapp"></i><span id="footerWa">واتساب</span></div>
+      <div class="footer-contact-item"><i class="fab fa-facebook"></i><span id="footerFb">فيسبوك</span></div>
+      <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span id="footerAddress">شبرا الخيمة، القاهرة</span></div>
+      <div class="footer-contact-item"><i class="fas fa-clock"></i><span>يومياً من 10ص - 10م</span></div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p id="footerCopyright">© 2025 A S Accessories. جميع الحقوق محفوظة.</p>
+    <p>صُنع بـ ❤️ في مصر 🇪🇬</p>
+  </div>
+</footer>
+</div>
+
+<!-- CART DRAWER -->
+<div class="cart-overlay" id="cartOverlay" onclick="toggleCart()">
+  <div class="cart-drawer" onclick="event.stopPropagation()">
+    <div class="cart-header"><h3><i class="fas fa-shopping-bag" style="color:var(--gold)"></i> سلة التسوق</h3><button class="cart-close" onclick="toggleCart()"><i class="fas fa-times"></i></button></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer" id="cartFooter" style="display:none">
+      <div class="cart-total-row"><span>المجموع</span><span id="cartSubtotal">0 جنيه</span></div>
+      <div class="cart-total-row"><span>الشحن</span><span id="cartShippingDisplay">50 جنيه</span></div>
+      <div class="cart-total-row final"><span>الإجمالي</span><span id="cartTotal">0 جنيه</span></div>
+      <button class="checkout-btn" id="checkoutBtn" onclick="openCheckout()"><i class="fas fa-credit-card"></i> إتمام الطلب</button>
+    </div>
+  </div>
+</div>
+
+<!-- PRODUCT MODAL -->
+<div class="modal-overlay" id="productModal" onclick="closeProductModal(event)">
+  <div class="product-modal" id="productModalContent">
+    <button class="modal-close" onclick="closeModal('productModal')"><i class="fas fa-times"></i></button>
+    <div class="modal-img" id="modalImgSection"><img id="modalMainImg" src="" alt=""><div class="modal-img-thumbs" id="modalThumbs"></div></div>
+    <div class="modal-info" id="modalInfo"></div>
+  </div>
+</div>
+
+<!-- CHECKOUT MODAL -->
+<div class="modal-overlay" id="checkoutModal" onclick="closeProductModal(event)">
+  <div class="checkout-modal" onclick="event.stopPropagation()">
+    <div class="checkout-header"><h3><i class="fas fa-shopping-cart"></i> إتمام الطلب</h3><button class="cart-close" onclick="closeModal('checkoutModal')"><i class="fas fa-times"></i></button></div>
+    <div class="checkout-body">
+      <form onsubmit="placeOrder(event)">
+        <div class="form-row">
+          <div class="form-group"><label>الاسم الكامل <span>*</span></label><input type="text" class="form-input" id="custName" placeholder="اسمك الكامل" required></div>
+          <div class="form-group"><label>رقم الهاتف <span>*</span></label><input type="tel" class="form-input" id="custPhone" placeholder="01xxxxxxxxx" required></div>
+        </div>
+        <div class="form-group"><label>البريد الإلكتروني (اختياري)</label><input type="email" class="form-input" id="custEmail" placeholder="example@email.com"></div>
+        <div class="form-row">
+          <div class="form-group"><label>المحافظة <span>*</span></label>
+            <select class="form-input" id="custGov" required onchange="updateShipping()">
+              <option value="">اختر المحافظة</option>
+              <option>القاهرة</option><option>الجيزة</option><option>الإسكندرية</option><option>الشرقية</option><option>الدقهلية</option><option>القليوبية</option><option>المنيا</option><option>أسيوط</option><option>سوهاج</option><option>الأقصر</option><option>أسوان</option><option>الإسماعيلية</option><option>بور سعيد</option><option>السويس</option><option>دمياط</option><option>كفر الشيخ</option><option>الغربية</option><option>المنوفية</option><option>البحيرة</option><option>الفيوم</option><option>بني سويف</option><option>مرسى مطروح</option><option>شمال سيناء</option><option>جنوب سيناء</option><option>البحر الأحمر</option><option>الوادي الجديد</option>
+            </select>
+          </div>
+          <div class="form-group"><label>المدينة/المنطقة <span>*</span></label><input type="text" class="form-input" id="custCity" placeholder="اسم المدينة" required></div>
+        </div>
+        <div class="form-group"><label>العنوان التفصيلي <span>*</span></label><input type="text" class="form-input" id="custAddress" placeholder="الشارع، رقم المبنى..." required></div>
+        <div class="form-group"><label>ملاحظات (اختياري)</label><textarea class="form-input" id="custNotes" placeholder="أي ملاحظات..." rows="2" style="resize:vertical"></textarea></div>
+        <div class="order-summary">
+          <h4><i class="fas fa-receipt" style="color:var(--gold)"></i> ملخص الطلب</h4>
+          <div id="checkoutItems"></div>
+          <div class="summary-item"><span>الشحن</span><span id="checkoutShipping">50 جنيه</span></div>
+          <div class="summary-total"><span>الإجمالي</span><span id="checkoutTotal">0 جنيه</span></div>
+        </div>
+        <div style="background:var(--cream);border-radius:12px;padding:14px;margin-bottom:20px;display:flex;align-items:center;gap:10px">
+          <i class="fas fa-truck" style="color:var(--gold);font-size:20px"></i>
+          <div><div style="font-weight:700;font-size:13px">الدفع عند الاستلام</div><div style="font-size:12px;color:var(--gray)">الدفع كاش عند وصول الطلب</div></div>
+        </div>
+        <button type="submit" class="place-order-btn" id="placeOrderBtn"><i class="fas fa-check-circle"></i> تأكيد الطلب</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- SUCCESS MODAL -->
+<div class="modal-overlay" id="successModal"><div class="success-modal" id="successContent"></div></div>
+
+<!-- TOAST -->
+<div class="toast-container" id="toastContainer"></div>
+
+<!-- WHATSAPP FLOAT -->
+<a id="waFloat" href="#" target="_blank" class="wa-float" title="تواصلي معنا عبر واتساب" style="display:none"><i class="fab fa-whatsapp"></i></a>
+
+<script>
+const SUPABASE_URL = 'https://wuvoudelairlhcehrdec.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind1dm91ZGVsYWlybGhjZWhyZGVjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc0MzczMjAsImV4cCI6MjA5MzAxMzMyMH0.wIMc7mo_vtdZnU8bXpOC7rl09V8_rDdCBJG95YfS40Q';
+
+let allProducts = [], filteredProducts = [], displayedCount = 0;
+const PER_PAGE = 12;
+let cart = JSON.parse(localStorage.getItem('as_cart') || '[]');
+let currentCategory = 'all', currentFilter = 'all', currentSort = 'default';
+let selectedProduct = null, selectedQty = 1;
+let shippingCost = 50, freeShippingMin = 500;
+let WA_NUMBER = '201000000000';
+let SITE_SETTINGS = {};
+
+async function apiFetch(endpoint, options = {}) {
+  const res = await fetch(SUPABASE_URL + endpoint, {
+    ...options,
+    headers: { 'apikey': SUPABASE_ANON_KEY, 'Authorization': 'Bearer ' + SUPABASE_ANON_KEY, 'Content-Type': 'application/json', 'Prefer': options.prefer || 'return=representation', ...options.headers }
+  });
+  const text = await res.text();
+  if (!text) return [];
+  try { return JSON.parse(text); } catch { return []; }
+}
+
+// ======= LOAD SETTINGS & APPLY TO PAGE =======
+async function loadSettings() {
+  const data = await apiFetch('/rest/v1/settings?select=key,value');
+  SITE_SETTINGS = {};
+  (data || []).forEach(s => SITE_SETTINGS[s.key] = s.value);
+  applySettings();
+}
+
+function applySettings() {
+  const s = SITE_SETTINGS;
+
+  // Maintenance mode
+  if (s.maintenance_mode === 'true') {
+    document.getElementById('storeWrap').style.display = 'none';
+    document.getElementById('maintenanceWrap').style.display = 'flex';
+    return;
+  }
+
+  // SEO
+  if (s.seo_title) document.getElementById('pageTitle').textContent = s.seo_title;
+  if (s.seo_description) document.getElementById('pageDesc').setAttribute('content', s.seo_description);
+
+  // Top bar
+  const topBar = document.getElementById('top-bar');
+  if (s.topbar_visible === 'false') { topBar.style.display = 'none'; }
+  else { topBar.style.display = 'block'; if (s.topbar_text) document.getElementById('topbarText').textContent = s.topbar_text; }
+
+  // Logo & Name
+  if (s.store_name) { document.getElementById('logoName').textContent = s.store_name; document.getElementById('footerLogoName').textContent = s.store_name; }
+  if (s.store_logo) { const li = document.getElementById('logoIcon'); li.innerHTML = `<img src="${s.store_logo}" style="width:100%;height:100%;object-fit:contain;border-radius:10px">\

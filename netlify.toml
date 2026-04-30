@@ -1,3 +1,7 @@
+[build]
+  command = "node generate-static.mjs"
+  publish = "public"
+
 [[redirects]]
   from = "/admin"
   to = "/admin.html"
